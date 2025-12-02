@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>麻辣螃蟹畅吃券 - 台东步行街</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: url('https://picsum.photos/id/1060/1920/1080') no-repeat center center fixed;
+            background-size: cover;
+            font-family: "楷体", "SimKai", serif;
+            color: #333;
+            padding: 50px 0;
+        }
+        .coupon-container {
+            width: 80%;
+            max-width: 600px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.92);
+            padding: 40px;
+            border: 2px solid #d4af37;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            position: relative;
+        }
+        .coupon-container::before {
+            content: "";
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 120px;
+            height: 30px;
+            background: #d4af37;
+            border-radius: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .coupon-title {
+            text-align: center;
+            font-size: 36px;
+            color: #c72c41;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .coupon-content {
+            font-size: 24px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            padding: 0 20px;
+        }
+        .coupon-content span {
+            color: #c72c41;
+            font-weight: bold;
+        }
+        .coupon-footer {
+            text-align: center;
+            font-size: 20px;
+            color: #666;
+            padding-top: 20px;
+            border-top: 1px dashed #d4af37;
+        }
+        .decorative {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+        }
+        .decorative-left-top {
+            top: -20px;
+            left: -20px;
+            background: url('https://picsum.photos/id/1076/100/100') no-repeat center;
+            background-size: contain;
+        }
+        .decorative-right-top {
+            top: -20px;
+            right: -20px;
+            background: url('https://picsum.photos/id/1076/100/100') no-repeat center;
+            background-size: contain;
+        }
+        .decorative-left-bottom {
+            bottom: -20px;
+            left: -20px;
+            background: url('https://picsum.photos/id/1076/100/100') no-repeat center;
+            background-size: contain;
+        }
+        .decorative-right-bottom {
+            bottom: -20px;
+            right: -20px;
+            background: url('https://picsum.photos/id/1076/100/100') no-repeat center;
+            background-size: contain;
+        }
+    </style>
+</head>
+<body>
+    <div class="coupon-container">
+        <div class="decorative decorative-left-top"></div>
+        <div class="decorative decorative-right-top"></div>
+        <div class="decorative decorative-left-bottom"></div>
+        <div class="decorative decorative-right-bottom"></div>
+        
+        <h1 class="coupon-title">麻辣螃蟹畅吃券</h1>
+        
+        <div class="coupon-content">
+            <p>小黄同学：</p>
+            <p>恭喜您获赠台东步行街麻辣螃蟹畅吃券一张！</p>
+            <p>有效期：<span>2025年12月2日 15:00-20:00</span></p>
+            <p>领取方式：届时将有专人与您联系，敬请留意。</p>
+        </div>
+        
+        <div class="coupon-footer">
+            <p>台东步行街 敬上</p>
+        </div>
+    </div>
+</body>
+</html>
